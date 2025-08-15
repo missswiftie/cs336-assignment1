@@ -1,5 +1,7 @@
 # CS336 Spring 2025 Assignment 1: Basics
 
+花了四五天时间做完了cs336-assignment1代码部分的大部分内容（还没有开始训练，大佬轻喷），总体上讲这是一个十分不错且有趣的作业（支撑我从下午两点到晚上十一点坐在电脑前），基本上所有的测试都过了，但是关于BPETokenizer中encode的内存管理还是有点问题（内存超出了1M的限制），暂时不知道怎么优化。
+
 For a full description of the assignment, see the assignment handout at
 [cs336_spring2025_assignment1_basics.pdf](./cs336_spring2025_assignment1_basics.pdf)
 
@@ -47,5 +49,3 @@ gunzip owt_valid.txt.gz
 
 cd ..
 ```
-
-花了四五天时间做完了cs336-assignment1代码部分的大部分内容（还没有开始训练，大佬轻喷），总体上讲这是一个十分不错且有趣的作业（支撑我从下午两点到晚上十一点坐在电脑前），基本上所有的测试都过了，但是关于BPETokenizer中encode的内存管理还是有点问题，暂时不知道怎么优化。
